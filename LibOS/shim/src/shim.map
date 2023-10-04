@@ -1,0 +1,7 @@
+SHIM {
+    global:
+        syscalldb; register_library;
+        glibc_version; glibc_option;
+        syscall_wrapper;
+    local: *;
+};
